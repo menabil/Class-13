@@ -324,3 +324,287 @@ ol {
 }
 
 /* about part end */
+
+/* popolar part start */
+#popular {
+  background: #191919;
+  padding-top: 115px;
+  padding-bottom: 90px;
+}
+
+.pitem {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pimg {
+  padding-top: 16px;
+}
+
+.ptext {
+  position: relative;
+}
+
+.ptext h3 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 45px;
+  text-align: right;
+  margin-bottom: 80px;
+  letter-spacing: 3px;
+  position: relative;
+}
+
+.ptext h3::before {
+  position: absolute;
+  height: 4px;
+  width: 100px;
+  background: #ff4655;
+  content: "";
+  right: 125px;
+  bottom: 5px;
+}
+
+.pa {
+  color: #fff;
+  padding-top: 5px;
+  padding-left: 3px;
+}
+
+.nc {
+  color: #fff;
+  padding-top: 5px;
+  padding-left: 2px;
+}
+
+.aza {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 2px solid#fff;
+  position: absolute;
+  bottom: 70px;
+  right: 50px;
+}
+
+.azz {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 2px solid#fff;
+  position: absolute;
+  bottom: 25px;
+  right: 50px;
+}
+
+/* popolar part end */
+
+/* live part start */
+#live {
+  padding: 90px 0;
+  background: #121212;
+}
+
+.lhead h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 56px;
+  letter-spacing: 20%;
+  width: 520px;
+  letter-spacing: 3px;
+  position: relative;
+  margin-bottom: 70px;
+}
+
+.lhead h3::after {
+  position: absolute;
+  height: 5px;
+  width: 120px;
+  background: #ff4655;
+  content: "";
+  right: 240px;
+  bottom: 11px;
+}
+
+.litems {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+
+.lmid {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.lmid p {
+  font-size: 25px;
+  font-weight: 500;
+  font-family: "Barlow Condensed", sans-serif;
+  letter-spacing: 4px;
+  color: #fff;
+}
+
+.mflex {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 115px;
+  align-items: center;
+}
+
+.mflexz {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 115px;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.team1 {
+  display: flex;
+  background: #212121;
+  padding: 10px 62px 10px 3px;
+  align-items: center;
+  justify-content: space-between;
+  width: 35%;
+  clip-path: polygon(0 0, 100% 0, 100% 0%, 90% 100%, 0 100%);
+}
+
+.team1 p {
+  font-size: 32px;
+  font-weight: 500;
+  font-family: "Barlow Condensed", sans-serif;
+  color: #fff;
+}
+
+.mtext {
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 7px;
+}
+
+.team2 {
+  display: flex;
+  background: #212121;
+  padding: 10px 3px 10px 62px;
+  align-items: center;
+  justify-content: space-between;
+  width: 35%;
+  clip-path: polygon(0% 0%, 0% 0%, 100% 0%, 100% 100%, 10% 100%);
+}
+
+.team2 p {
+  font-size: 32px;
+  font-weight: 500;
+  font-family: "Barlow Condensed", sans-serif;
+  color: #fff;
+}
+/* live part end */
+
+/* sale part start */
+#sale {
+  padding: 90px 0;
+  background: #191919;
+}
+
+.shead {
+  text-align: right;
+}
+
+.shead h3 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 45px;
+  text-align: right;
+  margin-bottom: 50px;
+  letter-spacing: 3px;
+  position: relative;
+}
+
+.shead h3::before {
+  position: absolute;
+  height: 4px;
+  width: 100px;
+  background: #ff4655;
+  content: "";
+  right: 95px;
+  bottom: 8px;
+}
+
+.sitems {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.pass h6 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  font-family: "Barlow Condensed", sans-serif;
+  margin-top: 20px;
+}
+
+.pass p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #666666;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1px;
+  padding: 20px 0;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  font-family: "Oswald", sans-serif;
+}
+
+.price .x {
+  font-size: 16px;
+  font-weight: 400;
+  color: #666666;
+}
+
+.price .y {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.price .z {
+  padding: 4px 5px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  background: #ff4655;
+}
+
+.vs p {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.second {
+  background: #212121;
+}
+
+.part {
+  padding: 45px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* sale part end */
