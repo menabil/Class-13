@@ -311,12 +311,11 @@ ol {
   padding-bottom: 35px;
   color: #fff;
   font-family: "Oswald", sans-serif;
-  border-radius: 0 50px 0 50px;
-  border: 4px solid transparent;
+  border-radius: 0 60px;
 }
 
 .asz:hover {
-  border: 4px solid #ff4655;
+  box-shadow: 0px 0px 30px 5px rgba(255, 70, 86, 0.6);
 }
 
 .asz p {
@@ -338,7 +337,7 @@ ol {
 }
 
 .pimg {
-  padding-top: 16px;
+  padding-top: 20px;
 }
 
 .ptext {
@@ -389,6 +388,14 @@ ol {
   right: 50px;
 }
 
+.aza:hover {
+  background: #ff4655;
+}
+
+.azz:hover {
+  background: #ff4655;
+}
+
 .azz {
   height: 30px;
   width: 30px;
@@ -434,6 +441,10 @@ ol {
   display: flex;
   justify-content: space-between;
   padding-bottom: 60px;
+}
+
+.litems .a img:hover {
+  transform: scale(1.03);
 }
 
 .lmid {
@@ -545,6 +556,33 @@ ol {
   margin-bottom: 70px;
 }
 
+.passimg:hover {
+  transform: scale(1.03);
+}
+
+.passimg {
+  position: relative;
+  transition: 0.3s;
+}
+
+.passimg:hover .plus {
+  opacity: 1;
+  visibility: visible;
+}
+
+.plus {
+  color: #fff;
+  padding: 4px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  background: #212121;
+  opacity: 0;
+  visibility: hidden;
+}
+
 .pass h6 {
   font-size: 22px;
   font-weight: 600;
@@ -632,7 +670,7 @@ ol {
   padding: 20px 30px;
   background: #121212;
   display: inline-block;
-  transition: 0.4s;
+  transition: 0.3s;
 }
 
 .pbtn h5:hover {
@@ -650,10 +688,17 @@ ol {
   line-height: 47px;
 }
 
+.pimag img {
+  transition: 0.3s;
+}
+
+.pimag img:hover {
+  scale: 1.03;
+}
+
 /* sale part end */
 
-/* accesoriese part start */
-
+/* accesoriese part start*/
 #accesoriese {
   padding: 90px 0;
   background: #121212;
@@ -694,11 +739,14 @@ a.l {
   height: 40px;
   width: 40px;
   border-radius: 50%;
-  background-color: #ff4655;
   border: 2px solid#fff;
   position: absolute;
   top: 50%;
   left: -25px;
+}
+
+a.l:hover {
+  background-color: #ff4655;
 }
 
 .l .lp {
@@ -712,11 +760,14 @@ a.r {
   height: 40px;
   width: 40px;
   border-radius: 50%;
-  background-color: #ff4655;
   border: 2px solid#fff;
   position: absolute;
   top: 50%;
   right: -25px;
+}
+
+a.r:hover {
+  background-color: #ff4655;
 }
 
 .r .rp {
@@ -757,6 +808,10 @@ a.r {
 .accone img {
   padding-top: 10px;
   padding-bottom: 45px;
+}
+
+.accone img:hover {
+  scale: 1.03;
 }
 
 /* accesoriese part end */
@@ -800,16 +855,426 @@ a.r {
   width: 49%;
 }
 
-.tone h4 {
+.tone:hover .hide {
+  opacity: 1;
+  visibility: visible;
+}
+
+.tone:hover .th h4 {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.tone img {
+  display: block;
+  width: 100%;
+}
+
+.th h4 {
+  opacity: 1;
+  visibility: visible;
   position: absolute;
   font-size: 30px;
   font-weight: 600;
   color: #fff;
   bottom: 0;
-  background: rgba(37, 36, 36, 0.29);
+  background: rgba(37, 36, 36, 0.3);
   width: 100%;
   padding: 30px;
   font-family: "Barlow Condensed", sans-serif;
+  transition: 0.5s;
+}
+
+.hide {
+  opacity: 0;
+  visibility: hidden;
+  background: rgba(37, 36, 36, 0.4);
+  padding: 40px 60px 30px 30px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.hide h3 {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Barlow Condensed", sans-serif;
+  color: #fff;
+  padding-bottom: 10px;
+}
+.hide p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
+  color: #fff;
+  padding-bottom: 20px;
+  width: 300px;
+  line-height: 25px;
+}
+
+.hbtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hbtn .km {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
+  color: #fff;
+  padding: 8px 17px;
+  background: #ff4655;
+  border: 2px solid #ff4655;
+}
+
+.hbtn .km:hover {
+  background: transparent;
+}
+
+.hsocial a {
+  color: #fff;
+  height: 40px;
+  width: 40px;
+  background: #ff4655;
+  border-radius: 50%;
+  padding-top: 8px;
+  padding-left: 6px;
+  border: 2px solid #ff4655;
+  font-size: 20px;
+}
+
+.hsocial a:hover {
+  background: transparent;
 }
 
 /* team part end */
+
+/* Qna part start */
+#qna {
+  padding-top: 55px;
+  padding-bottom: 200px;
+  background: #121212;
+}
+
+.qhead h3 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 50px;
+  width: 675px;
+  letter-spacing: 2px;
+  position: relative;
+  margin-bottom: 95px;
+}
+
+.qhead h3::after {
+  position: absolute;
+  height: 5px;
+  width: 120px;
+  background: #ff4655;
+  content: "";
+  right: 220px;
+  bottom: 10px;
+}
+
+.qitems {
+  display: flex;
+  justify-content: space-between;
+}
+
+.qOne {
+  display: flex;
+  border-bottom: 2px solid #666666;
+  border-right: 2px solid #666666;
+  padding-bottom: 75px;
+  padding-right: 131px;
+}
+
+.qtwo {
+  display: flex;
+  border-bottom: 2px solid #666666;
+  padding-bottom: 75px;
+  padding-left: 125px;
+}
+
+.qthree {
+  display: flex;
+  border-right: 2px solid #666666;
+  padding-top: 75px;
+  padding-right: 125px;
+}
+
+.qfour {
+  display: flex;
+  padding-top: 75px;
+  padding-left: 125px;
+}
+
+.opp1 {
+  padding-top: 7px;
+  padding-right: 42px;
+}
+
+.opp1 h3 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  color: #fff;
+  display: inline-block;
+  background-color: #ff4655;
+  padding: 13px 25px 17px 25px;
+}
+
+.off1 {
+  width: 430px;
+}
+
+.off1 h3 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  padding-bottom: 12px;
+  transition: 0.4s;
+}
+
+.off1 h3:hover {
+  color: #ff4655;
+}
+
+.off1 p {
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #666666;
+  padding-bottom: 12px;
+  line-height: 24px;
+}
+
+/* Qna part end */
+
+/* footer part start */
+#footer {
+  padding-top: 115px;
+  padding-bottom: 70px;
+  background: #191919;
+  position: relative;
+}
+
+.fhead {
+  background: #ff4655;
+  padding: 35px 30px;
+  position: absolute;
+  top: -85px;
+  margin-bottom: 30px;
+  width: 1320px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fhead h3 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
+  font-family: "Barlow Condensed", sans-serif;
+  width: 725px;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+
+.fsub {
+  width: 30%;
+  position: relative;
+}
+
+.eclas {
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Barlow Condensed", sans-serif;
+  color: #666666;
+  width: 90%;
+}
+
+.sube {
+  border: none;
+  border-radius: 30px;
+  padding: 10px 28px;
+  background: #191919;
+  position: absolute;
+  right: 0;
+}
+
+.sube:hover {
+  scale: 1.1;
+}
+
+.sube a {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Barlow Condensed", sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.fitems {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fsocial {
+  width: 40%;
+}
+
+.fsocial p {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #666666;
+  font-family: "Oswald", sans-serif;
+  line-height: 24px;
+  width: 420px;
+}
+
+.fflink a {
+  color: #fff;
+  height: 40px;
+  width: 40px;
+  background: #212529;
+  border-radius: 50%;
+  padding-top: 10px;
+  padding-left: 7px;
+  font-size: 20px;
+}
+
+.fflink a:hover {
+  background: #ff4655;
+}
+
+.flink {
+  width: 15%;
+}
+
+.flink h3 {
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-family: "Barlow Condensed", sans-serif;
+  color: #fff;
+  padding-bottom: 30px;
+}
+
+.flink a {
+  font-family: "Oswald", sans-serif;
+  display: block;
+  padding-bottom: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #666666;
+}
+
+.flink a:hover {
+  color: #ff4655;
+}
+
+.fteam {
+  width: 15%;
+}
+
+.fteam h3 {
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-family: "Barlow Condensed", sans-serif;
+  color: #fff;
+  padding-bottom: 30px;
+}
+
+.fteam a {
+  font-family: "Oswald", sans-serif;
+  display: block;
+  padding-bottom: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #666666;
+}
+
+.fteam a:hover {
+  color: #ff4655;
+}
+
+.fgallery {
+  width: 25%;
+}
+
+.fgallery h3 {
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-family: "Barlow Condensed", sans-serif;
+  color: #fff;
+  padding-bottom: 30px;
+}
+
+.gone {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cone {
+  width: 32%;
+}
+
+.cone img {
+  width: 100%;
+  display: block;
+}
+
+.cone img:hover {
+  scale: 1.13;
+}
+
+.mt {
+  margin-top: 8px;
+}
+
+/* footer part end */
+
+/* copyright part start */
+#copy {
+  padding-top: 25px;
+  background: #191919;
+}
+
+.copyt {
+  padding: 25px 0;
+  border-top: 2px solid #666666;
+  text-align: center;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.copyt p {
+  display: inline-block;
+}
+
+.copyt a {
+  color: #ff4655;
+}
+
+.copyt a:hover {
+  scale: 1.2;
+}
+/* copyright part end */
